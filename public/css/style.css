@@ -238,6 +238,13 @@
 	line-height: 1.08;
 	color: #f8fafc;
 }
+.stack h2{
+	margin: .35rem 0 .6rem;
+  font-size: clamp(12px, 5vw, 54px) !important;
+	font-weight: 800;
+	line-height: 1.08;
+	color: #f8fafc;
+}
 
 .sub {
 	color: #03CEFF !important;
@@ -416,7 +423,7 @@
     .section-1-left h3{
         font-size: 24px;
     }
-    .section-1-left h6{
+    .section-1-left p{
         font-size: 14px;
     }
     .section-1-list p{
@@ -471,6 +478,13 @@
     color: white;
     text-align: center;
     padding-top: 40px;
+}
+.section-2-text p{
+  font-weight: 300; 
+  font-size: clamp(14px, 2.6vw, 18px);
+  max-width: 80%; 
+  font-style: italic; 
+  margin: auto;
 }
 .section-2-box {
     display: flex;
@@ -666,8 +680,8 @@
   margin-bottom: 30px;
 }
 
-.section-3-left h6{
-  font-size: clamp(10px, 2vw, 14px);
+.section-3-left p{
+  font-size: clamp(12px, 2vw, 14px);
   color: white;
   font-weight: 400;
 }
@@ -898,7 +912,7 @@ background: linear-gradient(90deg, rgba(1, 70, 107, 1) 0%, rgba(2, 39, 59, 1) 10
 .footer-child h5{
   margin-bottom: 30px;
 }
-.footer-child h6{
+.footer-child p{
   font-size: clamp(10px, 2vw, 14px);
   font-weight: 300;
   line-height: 1.7;
