@@ -5,6 +5,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body a{
+  text-decoration: none !important; 
+  color: #212529;
+}
+
+.main-footer a{
+  color: white;
+}
+
 .top-navbar-left p,
 .email-contact p,
 .phone-number p {
@@ -88,8 +97,9 @@
     cursor: pointer;
 }
 
-.list-active{
-    color: #32535b;
+.list-active a{
+    color: #194c58;
+    border-bottom: #194c58 2px solid;
 }
 .list-desktop li:hover{
  margin-bottom: 1px;
@@ -109,65 +119,6 @@
     
 }
 
-/* ====== HERO WRAPPER ====== */
-/* .hero{
-  position: relative;
-  width: 100%;
-  min-height: 600px;                 
-  background: url('/public/image/hero-1.webp') center/cover no-repeat;
-  display: flex;
-  align-items: center;          
-} */
-
-/* Overlay gelap untuk kontras teks */
-/* .hero__overlay{
-  position: absolute; inset: 0;
-  background: rgba(0,0,0,.55);      
-  pointer-events: none;
-} */
-
-/* ====== TEXT BLOCK ====== */
-/* .hero__inner{
-  position: relative;               
-  width: min(90%, 1100px);          
-  margin-left: clamp(200px, 6vw, 80px);
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0,0,0,.35);
-} */
-
-/* Eyebrow (label kecil di atas) */
-/* .hero__eyebrow{
-  margin: 0 0 12px;
-  letter-spacing: .06em;
-} */
-
-/* Judul utama */
-/* .hero__title{
-  margin: 0 0 16px;
-  max-width: 920px;                
-  font-weight: 700;
-  font-size: clamp(10px, 4.2vw, 56px);
-  line-height: 1.15;
-  letter-spacing: 1px;
-} */
-
-/* Subjudul dengan aksen garis kecil di kiri */
-/* .hero__subtitle{
-  margin: 0;
-  color: #1ec0ff;                   
-  position: relative;
-  padding-left: 14px;
-}
-.hero__subtitle::before{
-  content: "";
-  position: absolute; left: 0; top: 50%;
-  width: 6px; height: 2px;          
-  background: currentColor;
-  transform: translateY(-50%);
-} */
-
-
- /* ===== HERO CAROUSEL ===== */
     .hero {
 	position: relative;
 	width: 100%;
