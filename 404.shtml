@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>PT SEGORO JAYA MAKMUR ABADI - Transporter dan Pengumpul Limbah B3</title>
+  <meta name="robots" content="noindex">
+  <style>
+    *{box-sizing:border-box} body{margin:0;display:grid;min-height:100vh;place-items:center;background:#0b132b;color:#fff}
+    .wrap{max-width:680px;padding:24px;text-align:center}
+    h1{margin:0 0 8px;font-size:clamp(28px,4vw,48px)}
+    p{opacity:.85;margin:0 0 20px}
+    a{display:inline-block;padding:10px 16px;border-radius:10px;background:#0077B6;color:#fff;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>404 – Halaman tidak ditemukan</h1>
+    <p>URL yang kamu akses tidak tersedia. Periksa kembali alamat atau kembali ke beranda.</p>
+    <a href="/">Kembali ke Beranda</a>
+  </main>
+</body>
+</html>
